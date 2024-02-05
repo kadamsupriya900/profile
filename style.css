@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap');
+
+body {
+  background-color: white ;
+  font-family: Protest Riot;
+  color:brown;
+  font-size: medium;
+  line-height: normal;
+}
+
+h1 {
+  color:black;
+  font-family: Protest Revolution;
+  font-size:x-large;
+  line-height: normal;
+}
+
+h2 {
+  color:black;
+  font-family: Protest Revolution;
+  font-size: medium;
+  line-height: normal;
+}
+
+a:hover {
+  color:red;
+  text-decoration: underline;
+}
+
+.container {
+  background-color: F5DEB3;
+  width: 500px;
+  height: 600px
+  border: 10px solid white;
+  border-radius: 25px;
+  padding: 10px ;
+  margin:auto;
+  margin-bottom: 25px;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 5px 5px grey;
+}
+
+.image-circle{
+  border-radius: 50%;
+  border-color: black;
+}
+
+ .list-inline {
+  background-color: F5DEB3;
+  width: 500px;
+  height: 600px
+  border: 10px solid white;
+  border-radius: 25px;
+  padding: 10px ;
+  margin:auto;
+  margin-bottom: 25px;
+  justify-content: left;
+  text-align: left;
+  box-shadow: 5px 5px grey;
+ }
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
